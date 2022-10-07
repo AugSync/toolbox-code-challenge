@@ -1,0 +1,39 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Toolbox code challenge server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "standard && mocha",
+    "lint:fix": "standard --fix"
+  },
+  "author": "Augusto Barco",
+  "license": "ISC",
+  "engines": {
+    "npm": "6.14.17",
+    "node": "14.20.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1",
+    "prettier-config-standard": "^5.0.0",
+    "standard": "^17.0.0"
+  },
+  "prettier": "prettier-config-standard",
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  }
+}
