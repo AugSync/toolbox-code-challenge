@@ -38,7 +38,7 @@ The server will be available on port `8080`.
 ### Build Client
 
 ```bash
-cd ./server && npm run build
+cd ./client && npm run build
 ```
 
 This will build the client in the `dist` directory.
